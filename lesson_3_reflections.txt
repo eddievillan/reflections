@@ -2,3 +2,13 @@ When would you want to use a remote repository rather than keeping all your work
 
 The best time to use remote repositories is when you're collaborating a project with multiple people
 working on it. It's a more efficient way to share work collectively.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+ - Forks are copies of repositories found online @GitHub. These copies are saved to your GitHub colleciton. Forks
+   can be used when you want to copy another person's work.
+ - Clones are also copies of repositories, but they are directly stored locally. They can come from online or local
+   repositories. This is an awesome option if you only want to save your files to work on offline.
+ - Branches are changes made to the same repository. This can also be a copy of a current repository, but the copy is
+   copied to a more closely related storage space. The branch is great to use for experimental changes and non-
+   commercial ready product.
