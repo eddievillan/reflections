@@ -1,4 +1,5 @@
+
 When would you want to use a remote repository rather than keeping all your work local?
 
-The best time to use remote repositories is when you're collaborating a project with multiple people
+The best time to use remote repositories is when you're collaborating a project with multiple people 
 working on it. It's a more efficient way to share work collectively.
