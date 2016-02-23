@@ -24,3 +24,9 @@ What is the benefit of having a copy of the last known state of the remote store
 
 If you've obtained a copy of the last known state of the remote and store it locally, you're able to work offline (i.e. you're getting on a plane)0
 and then re-sync your repos when you get back online. This is awesome for progging on-the-go.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Not using Git or GitHub to collab on projects would be no easy task. I can't think of anything that would be easier in this
+scenario, but version control would be far harder to keep track of. The use of branches makes it really easy to keep track
+of different versions.
