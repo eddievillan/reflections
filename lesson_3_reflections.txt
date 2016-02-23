@@ -19,3 +19,8 @@ Describe the differences between forks, clones, and branches. When would you use
  - Branches are changes made to the same repository. This can also be a copy of a current repository, but the copy is
    copied to a more closely related storage space. The branch is great to use for experimental changes and non-
    commercial ready product.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+If you've obtained a copy of the last known state of the remote and store it locally, you're able to work offline (i.e. you're getting on a plane)0
+and then re-sync your repos when you get back online. This is awesome for progging on-the-go.
