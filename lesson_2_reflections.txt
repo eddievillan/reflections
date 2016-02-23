@@ -6,3 +6,27 @@ How is the staging area different from the working directory and the repository?
 
 The staging area or HEAD is the proposed changes to be committed since the last commit (working directory). The HEAD differs from
 the repository, because the repository is the log of all existing commits.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Running git diff --staged will tell you what is about to be committed, not the totat number of changes made to files. If you make multiple
+changes to files and need several commits, you can stage/commit them one at a time.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be helpful when creating experimental versions of your program, or rewriting the prog in another lang.
+
+How do the diagrams help you visualize the branch structure?
+
+These diagrams clearly illustrated what the branch structure looks like, including side/experimental branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches is an up-to-date workable version with all changes made in both branches included. The reason
+the diagram looks the way it does, is because the version history of the merged version will show a complete history from both branches
+back to the origin (primarily the initial commit).
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The good side of Git's auto-merging is when it works. If auto-merge is successful, there's a lot of time saved that you would've had to figure
+out the differences and manually decipher what stays and what gets thrown out of the commit. When auto-merge is unsuccessful, this is the outcome.
