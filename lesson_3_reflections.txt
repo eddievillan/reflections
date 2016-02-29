@@ -30,3 +30,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 Not using Git or GitHub to collab on projects would be no easy task. I can't think of anything that would be easier in this
 scenario, but version control would be far harder to keep track of. The use of branches makes it really easy to keep track
 of different versions.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Only keeping one branch (master) is an obvious easier repo to keep track of, it eliminates the frustration of branching and merging, primarily the merging conflicts
+with different versions. However, only using one branch is very risky when attempting to keep up on a publicly ready product.
